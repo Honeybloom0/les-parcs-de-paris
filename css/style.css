@@ -1,4 +1,25 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+footer {
+    max-width: 1650px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    border-top: 1px solid gray;
+    padding-top: 1em;
+    justify-content: space-evenly;
 }
