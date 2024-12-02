@@ -6,9 +6,42 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: white;
+}
+
+
+header img {
+    margin-top: 50px;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+header {
+    background-color: cadetblue;
+    margin: auto;
+    max-width: 1650px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+
+header a:hover {
+    color: darksalmon;
+}
+
+header li {
+    border: 3px solid yellow;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4e4e4e;
 }
 
 article {
@@ -17,12 +50,6 @@ article {
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 6px black;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    color: #4e4e4e;
 }
 
 section {
@@ -67,29 +94,7 @@ section p {
     text-align: justify;
 }
 
-header img{
-    margin-top: 50px;
-    margin-bottom: 10%;
-    width: 100%;  
-}
 
-header{
-background-color: cadetblue;
-margin: auto;
-max-width: 1650px;
-}
-header nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding-bottom: 80px;     
-}
-a:hover{
-    color: darksalmon;
-}
-li{
-    border: 3px solid yellow;
-}
 
 footer {
     max-width: 1650px;
@@ -125,4 +130,8 @@ footer ul {
     border-top: 1px solid gray;
     padding-top: 1em;
     align-items: center;
+}
+
+footer .ft_block {
+    width: 30%;
 }
