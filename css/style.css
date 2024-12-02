@@ -66,3 +66,63 @@ section p {
     color: #002900;
     text-align: justify;
 }
+
+header img{
+    margin-top: 50px;
+    margin-bottom: 10%;
+    width: 100%;  
+}
+
+header{
+background-color: cadetblue;
+margin: auto;
+max-width: 1650px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-bottom: 80px;     
+}
+a:hover{
+    color: darksalmon;
+}
+li{
+    border: 3px solid yellow;
+}
+
+footer {
+    max-width: 1650px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+footer .ft_cols {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 4em;
+    text-align: center;
+}
+
+footer .ft_cols h2 {
+    margin-bottom: 1em;
+}
+
+footer .ft_cols img {
+    width: 25px;
+}
+
+footer .ft_logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border-top: 1px solid gray;
+    padding-top: 1em;
+    align-items: center;
+}
