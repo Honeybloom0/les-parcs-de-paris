@@ -16,10 +16,32 @@ footer {
     margin-top: 2em;
 }
 
+footer .ft_cols {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 4em;
+    text-align: center;
+}
+
+footer .ft_cols h2 {
+    margin-bottom: 1em;
+}
+
+footer .ft_cols img {
+    width: 25px;
+}
+
+footer .ft_logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 footer ul {
     display: flex;
+    flex-direction: column;
     list-style-type: none;
     border-top: 1px solid gray;
     padding-top: 1em;
-    justify-content: space-evenly;
+    align-items: center;
 }
